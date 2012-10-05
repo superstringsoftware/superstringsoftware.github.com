@@ -1,7 +1,15 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }
+
+body {
+	 background: url("public/Calabi-yau_space.jpg") center center no-repeat;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -67,5 +75,42 @@ html, body {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+
+.preview {
+	
+	background-color: black;
+
+}
+
+.preview h4 {
+	height: 100%;
+	color: white;
+}
+
+img.displayed {
+    display: block;
+    
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 154px;
+   height: 205px;
+   margin-top: -150px; /* Half the height */
+   margin-left: -102px; /* Half the width */ 
+}
+
+.footer {
+	color: #7777ff;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer p {
+	text-align: center;
+	font-family: Arial;
+	font-weight: 200;
+	
 }
 	
