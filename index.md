@@ -17,7 +17,7 @@ on these projects.
 
 In case you were wondering why the [superstrings](http://en.wikipedia.org/wiki/Superstring_theory) reference: as they are believed to be the 
 basic building blocks of, well, everything, they are the simplest thing possible, which is described with the most complicated math you could 
-imagine. That's kind of what we want to achieve, on our incomparably lesser scale - build simple beautiful things with simple / complex building 
+imagine. That's kind of what we want to achieve, on our incomparably lesser scale - create simple beautiful things with simple / complex building 
 blocks which our users don't see or even suspect of their existence.
 
 
