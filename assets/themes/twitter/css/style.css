@@ -69,7 +69,21 @@ a:hover {
 
 h1,h2,h3,h4,h5 {
 	color: #445;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
+.hero-unit h1 {
+	font-size: 24pt;
+}
+.hero-unit h2 {
+	font-size: 18pt;
+}
+
+.hero-unit h3 {
+	font-size: 16pt;
+}
+
+
 
 #main-logo em {
 	font-weight: bold;
@@ -105,6 +119,10 @@ footer {
 	width: 100%;
 	text-align: center;
 	color: #aaa;
+	position: fixed;
+	bottom:0;
+	padding-top: 20px;
+	background-color: #333;
 	
 }
 
@@ -144,7 +162,7 @@ ul.nav,
 } 
 
 .right-column {
-	background-color: #333;
+	background-color: #334;
 	height: 100%;
 	padding: 10px 0px 10px 10px;
 	-webkit-border-radius: 6px;

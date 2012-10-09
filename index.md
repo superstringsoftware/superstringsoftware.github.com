@@ -11,7 +11,7 @@ We firmly believe that software should be simple (= have only necessary features
 that allows achieving these goals should be completely hidden from the user.
 
 We do that by working with teams all around the world that create [great apps for iPhone,](http://app-fields.com) 
-[tools for promising new web frameworks](http://observatory.meteor.com) such as [Meteor](http://meteor.com) and work on building
+[tools for promising new web frameworks](http://observatory.meteor.com) such as [Meteor](http://meteor.com) and building
 next generation business software (which we can't talk about yet). Here, all of us sometimes blog about our experience working 
 on these projects.
 
