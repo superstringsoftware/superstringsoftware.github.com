@@ -20,4 +20,10 @@ basic building blocks of, well, everything, they are the simplest thing possible
 imagine. That's kind of what we want to achieve, on our incomparably lesser scale - build simple beautiful things with simple / complex building 
 blocks which our users don't see or even suspect of their existence.
 
+```javascript
+fn = function(tt) {
+  return tt*2;
+};
+```
+
 
