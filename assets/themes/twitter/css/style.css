@@ -3,7 +3,7 @@ body {
 	color:#ccc;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    	font-weight: 300;
-   	background: url(/img/black_twill.png);
+   	background: url(/img/use_your_illusion.png);
 
 }
 
@@ -110,6 +110,7 @@ h1,h2,h3,h4,h5 {
 
   margin-bottom: 0;
   border-bottom: solid 1px #446;
+  
 
   height: 104px;
   position: fixed;
