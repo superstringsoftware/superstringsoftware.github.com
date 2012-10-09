@@ -1,6 +1,9 @@
 body {
 	background-color: #778;
 	color:#ccc;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+   	background: url(/img/black_twill.png);
 
 }
 
@@ -60,7 +63,7 @@ a:hover {
 
 #main-logo span {
 	color: #777;
-	font-family: Verdana;
+	/*font-family: Verdana;*/
 	font-size: 14pt;
 	position: relative;
 	top: -25px;
@@ -96,9 +99,9 @@ h1,h2,h3,h4,h5 {
 
 #topNavbar {
   background-color: #333;
-  background-image: -moz-linear-gradient(top, #333, #030303);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#030303), to(#333));
-  background-image: -webkit-linear-gradient(top, #030303, #333);
+  background-image: -moz-linear-gradient(top, #222, #000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#222));
+  background-image: -webkit-linear-gradient(top, #000, #222);
   background-image: -o-linear-gradient(top, #333, #030303);
   background-image: linear-gradient(to bottom, #333, #030303);
   background-repeat: repeat-x;
@@ -106,9 +109,9 @@ h1,h2,h3,h4,h5 {
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff030303', GradientType=0);
 
   margin-bottom: 0;
-  border-bottom: solid 4px #334;
+  border-bottom: solid 1px #446;
 
-  height: 100px;
+  height: 104px;
   position: fixed;
   top: 0;
   width: 100%;
