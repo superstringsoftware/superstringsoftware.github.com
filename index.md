@@ -1,7 +1,7 @@
 ---
 layout: page1
-title: Hello World!
-tagline: Supporting tagline
+title: SuperstringSoftware Ventures
+tagline: because *it* should be easy
 ---
 {% include JB/setup %}
 
