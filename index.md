@@ -1,46 +1,23 @@
 ---
-layout: page
+layout: page1
 title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+We started [SuperstringSoftware](http://superstringsoftware.com) to do our part in changing the way software and 
+services based on software are built and used. 
+We firmly believe that software should be simple (= have only necessary features), fast, easy to use, and that any underlying complexity 
+that allows achieving these goals should be completely hidden from the user.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+We do that by working with teams all around the world that create [great apps for iPhone,](http://app-fields.com) 
+[tools for promising new web frameworks](http://observatory.meteor.com) such as [Meteor](http://meteor.com) and work on building
+next generation business software (which we can't talk about yet). Here, all of us sometimes blog about our experience working 
+on these projects.
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+In case you were wondering why the [superstrings](http://en.wikipedia.org/wiki/Superstring_theory) reference: as they are believed to be the 
+basic building blocks of, well, everything, they are the simplest thing possible, which is described with the most complicated math you could 
+imagine. That's kind of what we want to achieve, on our incomparably lesser scale - build simple beautiful things with simple / complex building 
+blocks which our users don't see or even suspect of their existence.
 
 

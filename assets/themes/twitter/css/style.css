@@ -1,7 +1,16 @@
 body {
-	background-color: #555;
+	background-color: #777;
 	color:#ccc;
 
+}
+
+a {
+	color: #bbb;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 .impact-thing {
@@ -13,6 +22,21 @@ body {
 {
 	background-color: #aaa;
 	color: #444;
+}
+
+.impact-thing-white
+{
+	background-color: #eee;
+	color: #444;
+}
+
+.impact-thing a {
+	color: #eef;
+	font-weight: 400;
+}
+
+.impact-thing a:hover {
+	color: #fff;
 }
 
 #main-logo img {
@@ -29,6 +53,10 @@ body {
 	text-shadow: 0.2em 0.2em 0.3em black;
 }
 
+h1,h2,h3,h4,h5 {
+	color: #445;
+}
+
 #main-logo em {
 	font-weight: bold;
 	color: #88f;
@@ -40,35 +68,29 @@ body {
 
 #topNavbar {
   background-color: #333;
-  background-image: -moz-linear-gradient(top, #333, #222);
+  background-image: -moz-linear-gradient(top, #333, #030303);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#030303), to(#333));
   background-image: -webkit-linear-gradient(top, #030303, #333);
-  background-image: -o-linear-gradient(top, #333, #222);
-  background-image: linear-gradient(to bottom, #333, #222);
+  background-image: -o-linear-gradient(top, #333, #030303);
+  background-image: linear-gradient(to bottom, #333, #030303);
   background-repeat: repeat-x;
   
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff030303', GradientType=0);
 
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   border-bottom: solid 4px #334;
 
   height: 100px;
 
 }
 
-.my-test {
-	border-right: solid 1px black;
-	border-left: solid 1px black;
-	background-color: red;
-	width: 940px;
-}
 
 footer {
 	
 	border-top: 1px dashed;
 	width: 100%;
 	text-align: center;
-	color: #777;
+	color: #aaa;
 	
 }
 
@@ -107,8 +129,16 @@ ul.nav,
 	margin: 0;
 } 
 
-pre {
-	width: 80%;
+.right-column {
+	background-color: #333;
+	height: 100%;
+	padding: 10px 0px 10px 10px;
+	-webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
 }
 
+.right-column h3 {
+	color: #ccd;
+}
 

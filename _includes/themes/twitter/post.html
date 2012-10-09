@@ -1,11 +1,17 @@
-<div class="page-header">
-  <h1>{{ page.title }} <small>Supporting tagline</small></h1>
-</div>
 
 <div class="row">
-  <div class="span8">
+  <div class="span9">
+    
+    <div class="hero-unit impact-thing-white">
+      <div class="page-header">
+    <h1>{{ page.title }}</h1>
+    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+  </div>
     {{ content }}
+    </div>
     <hr>
+
+    <div class="hero-unit impact-thing-white">
     <div class="pagination">
       <ul>
       {% if page.previous %}
@@ -24,17 +30,37 @@
     <hr>
     {% include JB/comments %}
   </div>
+</div>
   
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+  <div class="span3">
 
-  {% unless page.tags == empty %}
-    <h4>Tags</h4>
+
+<div class="right-column">
+      <h3>recent posts</h3>
+    <ul>
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+<h3>categories</h3>
+  <ul class="tag_box inline">
+  {% assign categories_list = site.categories %}
+  {% include JB/categories_list %}
+</ul>
+
+{% unless page.tags == empty %}
+    <h3>tags</h3>
     <ul class="tag_box">
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     </ul>
   {% endunless %}  
+  </div>
+
+
+    
+
+  
   </div>
 </div>
