@@ -1,116 +1,114 @@
-/* Override some defaults */
-html, body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-}
-
 body {
-	 background: url("public/Calabi-yau_space.jpg") center center no-repeat;
+	background-color: #555;
+	color:#ccc;
+
 }
 
-.navbar {
-  margin-bottom: 0;
-}
-.container > footer {
-  margin-top: 20px;
-}
-.container > footer p {
-  text-align: center; /* center align it with the container */
+.impact-thing {
+	background-color: #aab;
+	color: #447;
 }
 
-/* The white background content wrapper */
-.content {
-  background-color: #fff;
-  padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+.impact-thing-grey
+{
+	background-color: #aaa;
+	color: #444;
 }
 
-/* Page header tweaks */
-.page-header {
-  background-color: #f5f5f5;
-  padding: 20px 20px 10px;
-  margin: -20px -20px 20px;
+#main-logo img {
+	position: relative;
+	left: -34px;
 }
 
-.topbar .btn {
-  border: 0;
+#main-logo span {
+	color: #777;
+	font-family: Verdana;
+	font-size: 14pt;
+	position: relative;
+	top: -25px;
+	text-shadow: 0.2em 0.2em 0.3em black;
 }
 
-
-/* tag_box ======================================================== */
-
-.tag_box {
-	list-style:none;
-	margin:0;
-	padding:5px 0 ;
-	overflow:hidden;
+#main-logo em {
+	font-weight: bold;
+	color: #88f;
 }
-.tag_box li {
-	line-height:28px;
-}
-.tag_box.inline li {
+
+#main-logo {
 	float:left;
 }
-.tag_box a {
-	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
-	text-decoration:none;
-}
-.tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
-}
-.tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
+
+#topNavbar {
+  background-color: #333;
+  background-image: -moz-linear-gradient(top, #333, #222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#030303), to(#333));
+  background-image: -webkit-linear-gradient(top, #030303, #333);
+  background-image: -o-linear-gradient(top, #333, #222);
+  background-image: linear-gradient(to bottom, #333, #222);
+  background-repeat: repeat-x;
+  
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+
+  margin-bottom: 60px;
+  border-bottom: solid 4px #334;
+
+  height: 100px;
+
 }
 
-.preview {
+.my-test {
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+	background-color: red;
+	width: 940px;
+}
+
+footer {
 	
-	background-color: black;
-
-}
-
-.preview h4 {
-	height: 100%;
-	color: white;
-}
-
-img.displayed {
-    display: block;
-    
-    position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 154px;
-   height: 205px;
-   margin-top: -150px; /* Half the height */
-   margin-left: -102px; /* Half the width */ 
-}
-
-.footer {
-	color: #7777ff;
-	position: fixed;
-	bottom: 0;
+	border-top: 1px dashed;
 	width: 100%;
+	text-align: center;
+	color: #777;
+	
 }
 
-.footer p {
-	text-align: center;
-	font-family: Arial;
-	font-weight: 200;
+.nav {
+	/*left: -10px;*/
 	
+	position: relative;
+	top: 70px;
 }
-	
+
+.nav li {
+	float: left;
+}
+
+ul.nav a:hover {
+color: #FFF;
+background: inherit;
+}
+
+.nav a,
+.nav a:visited {
+	padding-right: 12px;
+	padding-left: 12px;
+	display: block;
+	color: #aae;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-decoration: none;
+	font-size: 21px;
+}
+
+.nav,
+ul.nav,
+.nav li {
+	padding: 0;
+	margin: 0;
+} 
+
+pre {
+	width: 80%;
+}
+
+
