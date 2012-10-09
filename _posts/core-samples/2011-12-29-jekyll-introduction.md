@@ -23,6 +23,12 @@ This website is created with Jekyll. [Other Jekyll websites](https://github.com/
 
 ### What does Jekyll Do?
 
+{% highlight javascript %}
+fn = function(tt) {
+  return tt*2;
+};
+{% endhighlight %}
+
 Jekyll is a ruby gem you install on your local system.
 Once there you can call `jekyll --server` on a directory and provided that directory
 is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, 
