@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In a way of introduction"
+title: "By way of introduction"
 description: "How to say 'Hello World' in English"
 category: general
 tags: [meteor]
