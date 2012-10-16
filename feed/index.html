@@ -14,9 +14,9 @@
     {% for post in site.posts limit:20 %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://superstringsoftware.com{{ post.url }}"/>
+        <link href="http://superstringsoftware.com{{ post.url }}" />
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://superstringsoftware.com{{ post.url }}/</id>
+        <id>http://superstringsoftware.com{{ post.url }}</id>
         <summary type="html">{{ post.content }}</summary>
     </entry>
     {% endfor %}
