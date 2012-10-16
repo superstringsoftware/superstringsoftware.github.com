@@ -61,6 +61,16 @@ a:hover {
 	left: -34px;
 }
 
+img.logo-twitter {
+	position: relative;
+	top: -10px;
+}
+
+img.logo-rss {
+	position: relative;
+	top: -13px;
+}
+
 #main-logo span {
 	color: #777;
 	/*font-family: Verdana;*/
