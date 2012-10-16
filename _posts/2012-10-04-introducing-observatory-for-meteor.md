@@ -3,7 +3,7 @@ layout: post
 title: "Introducing Observatory for Meteor"
 description: ""
 category: observatory
-tags: [meteor, observatory, logging]
+tags: [meteor, observatory, logging, javascript]
 ---
 {% include JB/setup %}
 
