@@ -4,25 +4,50 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>My Hakyll Blog - Rosa Rosa Rosam</title>
-        <link rel="stylesheet" type="text/css" href="../css/default.css" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-mini.css" />
+        <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
     </head>
     <body>
-        <div id="header">
-            <div id="logo">
-                <a href="../">My Hakyll Blog</a>
+        
+        <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../">Rosa Rosa Rosam</a>
             </div>
-            <div id="navigation">
-                <a href="../">Home</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-                <a href="../archive.html">Archive</a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href>Home</a>
+                    </li>
+                    <li>
+                        <a href="../about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="../contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="../archive.html">Archive</a>
+                    </li>
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-        <div id="content">
-            <h1>Rosa Rosa Rosam</h1>
+    <!-- Main Content -->
+    <div class="container">
 
-            <div class="info">
+    <div class="info">
     Posted on October  7, 2012
     
         by Ovidius
@@ -35,10 +60,50 @@
 <p>Phasellus ultricies elit eu risus sagittis eu dictum ante ultrices. Nulla congue, augue ac placerat tempor, orci mi luctus nisi, at varius ipsum sem sed eros. Vivamus eget velit eget felis posuere ornare. In sed metus non est iaculis facilisis dapibus sit amet enim. Aliquam viverra tortor eget neque volutpat in auctor urna rutrum. Aliquam ligula augue, congue sit amet rutrum in, semper vel nulla. Sed tempus porttitor faucibus. Donec cursus sodales nulla, quis lacinia mi vehicula vel. Sed nec purus orci. Nam leo sapien, rutrum a ultrices quis, placerat vel ligula. Donec massa quam, pellentesque et molestie nec, hendrerit id mauris. In hac habitasse platea dictumst. Cras quis quam sem. Curabitur in arcu diam, in interdum mauris.</p>
 <p>Proin lorem sapien, iaculis et faucibus nec, dictum sed nunc. Pellentesque in purus justo. Vestibulum facilisis rutrum nisi, a egestas nunc suscipit sed. Ut quis tortor a arcu bibendum placerat non sed ante. Praesent orci sem, posuere sit amet cursus molestie, volutpat ut purus. Curabitur aliquam, purus in pharetra viverra, lorem leo aliquam tellus, vel consequat felis neque et mauris. Aliquam erat volutpat.</p>
 
+
+        
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
         </div>
-        <div id="footer">
-            Site proudly generated by
-            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
-        </div>
+    </footer>
+
+
+
     </body>
 </html>

@@ -4,25 +4,50 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>My Hakyll Blog - Carpe Diem</title>
-        <link rel="stylesheet" type="text/css" href="../css/default.css" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-mini.css" />
+        <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
     </head>
     <body>
-        <div id="header">
-            <div id="logo">
-                <a href="../">My Hakyll Blog</a>
+        
+        <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../">Carpe Diem</a>
             </div>
-            <div id="navigation">
-                <a href="../">Home</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-                <a href="../archive.html">Archive</a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href>Home</a>
+                    </li>
+                    <li>
+                        <a href="../about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="../contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="../archive.html">Archive</a>
+                    </li>
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-        <div id="content">
-            <h1>Carpe Diem</h1>
+    <!-- Main Content -->
+    <div class="container">
 
-            <div class="info">
+    <div class="info">
     Posted on November 28, 2012
     
 </div>
@@ -33,10 +58,50 @@
 <p>Proin varius tempus fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt nunc id magna adipiscing non sollicitudin turpis tempor. Etiam vel elit ipsum, quis euismod velit. Quisque elementum magna vitae quam venenatis lacinia. Sed at arcu ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut lorem ac sapien cursus lacinia sit amet mollis dolor. Vivamus tempus odio nec magna faucibus sed hendrerit lorem tempor.</p>
 <p>Vestibulum eu nisi arcu. Curabitur nisi risus, fermentum ut lacinia ut, interdum nec magna. Nunc aliquet gravida massa, eu aliquam lorem faucibus at. Sed sollicitudin volutpat velit id tempor. In nibh justo, pharetra et pretium dignissim, tempus in turpis. Phasellus eget lobortis nisl. Phasellus sed fermentum diam. Nam tempus pharetra odio, quis congue eros imperdiet eu. Aliquam dui eros, hendrerit et vulputate vel, porta eu eros. Nullam nisi dui, commodo eget pharetra ut, ornare sit amet nunc. Fusce vel neque urna. Maecenas nulla ante, egestas at consequat quis, fermentum a enim. Aliquam id tristique urna. Integer augue justo, scelerisque et consectetur id, rhoncus eget enim.</p>
 
+
+        
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
         </div>
-        <div id="footer">
-            Site proudly generated by
-            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
-        </div>
+    </footer>
+
+
+
     </body>
 </html>
