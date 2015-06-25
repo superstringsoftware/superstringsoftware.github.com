@@ -1,8 +1,37 @@
-<div class="info">
-    Posted on $date$
-    $if(author)$
-        by $author$
-    $endif$
-</div>
+<header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>$title$</h1>
+                        $if(subtitle)$
+                        <span class="meta">
+                        	$subtitle$
+                        </span>
+                        $endif$
+                        
+                        <!-- Posted by <a href="#">Start Bootstrap</a> on $date$
+                        	$if(author)$
+        						by $author$
+    						$endif$ -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-$body$
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   $body$
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+
+

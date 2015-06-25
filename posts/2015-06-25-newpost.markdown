@@ -1,0 +1,14 @@
+---
+title: Random notes and ideas
+subtitle: well cool
+---
+
+## learning haskell
+Learning Haskell is, often, seems difficult, as it boils down to 2 roughly defined approaches:
+
+* Very bottom-up: try to find parallels with imperative programming and introduce more complex concepts later. Starts with playing with numbers calculator in ghci (or even "hello world". I hate "hello world", i think it is an absolutely outdated destructive teaching concept), list comprehensions and slowly progresses towards dreaded monads - at which point most of the people check out and never go back.
+* Very formal top-down: formal heavy-math based description of category theory, functors, monads etc.
+
+Both are problematic for wide real world use. Second doesn't work for obvious reasons - you need to have a pretty strong formal math background to follow. First doesn't work because functional programming reasoning patterns are *completely* different from the imperative style and the brain simply fails to connect the two patterns. 
+
+So, what we need to do is **build completely new thinking patterns from scratch**, without even trying to connect to what you know from imperative world. Refresh your high school algebra, read about [groups](https://en.wikipedia.org/wiki/Group_(mathematics)) and [rings](https://en.wikipedia.org/wiki/Ring_(mathematics)) in wikipedia, put your abstract thinking hat on, catch up on some popular category theory reading - and only *then* go into Haskell. 

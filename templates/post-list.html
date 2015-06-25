@@ -1,7 +1,20 @@
-<ul>
+
     $for(posts)$
-        <li>
-            <a href="$url$">$title$</a> - $date$
-        </li>
-    $endfor$
-</ul>
+        
+    
+
+
+<div class="post-preview">
+            <a href="$url$">
+                <h2 class="post-title">
+                    $title$
+                </h2>
+            </a>
+            <p class="post-subtitle">
+                    $subtitle$
+			</p>
+            <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on $date$</p>
+        </div>
+        <hr>
+        $endfor$
+        
